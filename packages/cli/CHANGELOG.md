@@ -1,5 +1,13 @@
 # vercel
 
+## 39.1.3
+
+### Patch Changes
+
+- Normalize POSIX paths in `filePathMap` for `vc build` ([#12666](https://github.com/vercel/vercel/pull/12666))
+
+- [cli] add eslint prefer-const rule and fixes ([#12654](https://github.com/vercel/vercel/pull/12654))
+
 ## 39.1.2
 
 ### Patch Changes
