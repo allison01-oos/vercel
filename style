@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+.container span{
+   font-weight: bold;
+}
+.container > div {
+    flex: 1 1 calc(50% - 20px);
+    box-sizing: border-box;
+    padding: 15px;
+}
+.vertical-line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    border-left: 1px solid #000;
+    transform: translateX(-50%);
+}
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle1 {
+    top: 5%;
+}
+
+.circle2 {
+    top: 31%;
+}
+
+.circle3 {
+    top: 58%;
+}
+
+.circle4 {
+    top: 84%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+   
+    .container > div {
+        flex: 1 1 auto;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+   
+    .vertical-line {
+        display: relative;
+        margin-left: 15px;
+    }
+
+    .circle {
+        left: 0;
+    }
+
+    .circle1 {
+        top: 2%;
+    }
+
+    .circle2 {
+        top: 14.75%;
+    }
+
+    .circle3 {
+        top: 27.5%;
+    }
+
+    .circle4 {
+        top: 40.25%;
+    }
+
+    .circle1::after {
+        content: '';
+        position: absolute;
+        top: 645px;
+        left: 50%;
+        width: 15px;
+        height: 15px;
+        background-color: red;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .circle2::after {
+        content: '';
+        position: absolute;
+        top: 645px;
+        left: 50%;
+        width: 15px;
+        height: 15px;
+        background-color: red;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .circle3::after {
+        content: '';
+        position: absolute;
+        top: 645px;
+        left: 50%;
+        width: 15px;
+        height: 15px;
+        background-color: red;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .circle4::after {
+        content: '';
+        position: absolute;
+        top: 645px;
+        left: 50%;
+        width: 15px;
+        height: 15px;
+        background-color: red;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
