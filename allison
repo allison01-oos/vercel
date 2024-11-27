@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div><span>1. Lorem ipsum, dolor sit</span><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate obcaecati voluptatibus quia, a repudiandae at vitae inventore qui, eum optio quidem laudantium laborum molestias soluta est hic sapiente voluptate illum?</div>
+        <div><span>2. Lorem ipsum, dolor sit</span><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate obcaecati voluptatibus quia, a repudiandae at vitae inventore qui, eum optio quidem laudantium laborum molestias soluta est hic sapiente voluptate illum?</div>
+        <div><span>3. Lorem ipsum, dolor sit</span><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate obcaecati voluptatibus quia, a repudiandae at vitae inventore qui, eum optio quidem laudantium laborum molestias soluta est hic sapiente voluptate illum?</div>
+        <div><span>4. Lorem ipsum, dolor sit</span><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate obcaecati voluptatibus quia, a repudiandae at vitae inventore qui, eum optio quidem laudantium laborum molestias soluta est hic sapiente voluptate illum?</div>
+        <div><span>5. Lorem ipsum, dolor sit</span><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate obcaecati voluptatibus quia, a repudiandae at vitae inventore qui, eum optio quidem laudantium laborum molestias soluta est hic sapiente voluptate illum?</div>
+        <div><span>6. Lorem ipsum, dolor sit</span><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate obcaecati voluptatibus quia, a repudiandae at vitae inventore qui, eum optio quidem laudantium laborum molestias soluta est hic sapiente voluptate illum?</div>
+        <div><span>7. Lorem ipsum, dolor sit</span><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate obcaecati voluptatibus quia, a repudiandae at vitae inventore qui, eum optio quidem laudantium laborum molestias soluta est hic sapiente voluptate illum?</div>
+        <div><span>8. Lorem ipsum, dolor sit</span><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate obcaecati voluptatibus quia, a repudiandae at vitae inventore qui, eum optio quidem laudantium laborum molestias soluta est hic sapiente voluptate illum?</div>
+        <div class="vertical-line">
+            <div class="circle circle1"></div>
+            <div class="circle circle2"></div>
+            <div class="circle circle3"></div>
+            <div class="circle circle4"></div>
+        </div>
+    </div>
+</body>
+</html>
